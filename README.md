@@ -2,7 +2,7 @@
 
 ## Installation
 
-- [Download](../../releases/latest/download/mm-localize.sketchplugin.zip) the latest release of the plugin
+- [Download](../../raw/master/mm-localize.sketchplugin.zip) the latest release of the plugin
 - Un-zip
 - Double-click on mm-localize.sketchplugin
 
