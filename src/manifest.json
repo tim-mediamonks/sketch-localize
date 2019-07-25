@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "name": "MediaMonks Localize",
+  "description": "Export plugin for Master Copy to work with Data Populator",
+  "author": "Tim Ruiters",
+  "version": "1.0",
+  "commands": [
+    {
+      "name": "Export Master JSON",
+      "identifier": "mm-localize.export-master-json",
+      "script": "./export-json.js"
+    },
+    {
+      "name": "Export Master CSV",
+      "identifier": "mm-localize.export-master-csv",
+      "script": "./export-csv.js"
+    },
+    {
+      "name": "Copy Layer Value to Layer Names",
+      "identifier": "mm-localize.copy-value-to-name",
+      "script": "./copy-value-to-name.js"
+    },
+    {
+      "name": "Debug Sketch File",
+      "identifier": "mm-localize.debug-file",
+      "script": "./debug-file.js"
+    }
+  ],
+  "menu": {
+    "title": "MediaMonks Localize",
+    "items": [
+      "mm-localize.export-master-json", "mm-localize.export-master-csv", "mm-localize.copy-value-to-name", "mm-localize.debug-file"
+    ]
+  }
+}
